@@ -11,6 +11,9 @@ Automatically schedules tenting shifts based on availability for UNC and other g
 7. Wait for the 'Done' popup.
 8. Check out your shifts and make any small adjustments
 
+## How it works
+All available day and night shifts are put in a list. Each shift has a value according to a heuristic (based on number of current shifts, shifts available at that time slot, contiguous blocks, and other factors). Algorithm goes through each possible shift and finds the element with the highest value. Schedules that shift, removes from list, and recomputes all values for remaining shifts.
+
 ## Screenshots
 ![UI V2](https://github.com/molson194/Duke-Tenting-Google-Sheets/blob/master/Photos/BlackTent1.png)
 ![UI V2](https://github.com/molson194/Duke-Tenting-Google-Sheets/blob/master/Photos/BlackTent2.png)
