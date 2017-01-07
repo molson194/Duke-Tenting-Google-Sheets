@@ -1,0 +1,9 @@
+
+<input type="radio" name="type" id="Black" value="Black" checked> Black<br>
+<input type="radio" name="type" id="Blue" value="Blue"> Blue<br>
+<input type="radio" name="type" id="White" value="White"> White<br>
+<input type="radio" name="type" id="Walkup" value="Walk-Up"> Walk-Up<br><br>
+Number of Tenters:<input id="Tenters" type="number" name="quantity" min="1" max="45"><br><br>
+<input type="button" value="Submit" onclick="google.script.run.infoDone(document.getElementById('Black').checked, document.getElementById('Blue').checked, document.getElementById('White').checked, document.getElementById('Walkup').checked, document.getElementById('Tenters').value); google.script.host.close();" /><br><br>
+
+Note: Walk-Up is 1/3 at all times (not 1/2 for UNC)
