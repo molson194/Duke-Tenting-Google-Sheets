@@ -1,5 +1,5 @@
 # Duke-Tenting-Google-Sheets
-Automatically schedules tenting shifts based on availability for UNC and other games
+Automatically schedules tenting shifts based on availability for UNC and other games. Check out the crazy tenting rules at http://www.kvillenation.com/
 
 ## Set Up
 1. Go to https://www.google.com/script/start/ and create a new script. Replace the Code.gs with TentingExtension.js and add Prompt.html to the project files.
